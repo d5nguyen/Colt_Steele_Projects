@@ -17,11 +17,12 @@ while(oddNumber <=333) {
     } 
     oddNumber++;
 }
-console.log("divisible #'s between 5 and 10");
-var divisible = 5;
-while(divisible <= 10) {
-    if ((divisible % 5 === 0) && (divisible %3 ===0)) {
-    console.log(divisible);
-    divisible++;
+console.log("divisible numbers between 5 and 50");
+var counter = 5;
+
+while(counter <= 50) {
+    if ((counter % 5 === 0) && (counter %3 === 0)) {
+    console.log(counter);
+    counter++;
 }
 }
